@@ -28,8 +28,8 @@ export const Contact=forwardRef((props,ref)=>{
       event.preventDefault();
       setFlash(true);
       emailjs
-        .sendForm(import.meta.env.SERVICEID,import.meta.env.TEMPLATE_ID, form.current, {
-          publicKey: import.meta.env.PUBLIC_KEY,
+        .sendForm(import.meta.env.VITE_SERVICE_ID,import.meta.env.VITE_TEMPLATE_ID, form.current, {
+          publicKey: import.meta.env.VITE_PUBLIC_KEY,
         })
         .then(
           () => {
