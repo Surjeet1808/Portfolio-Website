@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import {useState} from 'react';
 import { forwardRef } from "react";
 import {useRef} from 'react';
-import {Flash} from '../components/Flash'
+import {Flash} from '../components/Flash';
 
 export const Contact=forwardRef((props,ref)=>{
 
@@ -28,8 +28,8 @@ export const Contact=forwardRef((props,ref)=>{
       event.preventDefault();
       setFlash(true);
       emailjs
-        .sendForm(process.env.SERVICEID,process.env.TEMPLATE_ID, form.current, {
-          publicKey: process.env.PUBLIC_KEY,
+        .sendForm(import.meta.env.SERVICEID,import.meta.env.TEMPLATE_ID, form.current, {
+          publicKey: import.meta.env.PUBLIC_KEY,
         })
         .then(
           () => {
@@ -40,12 +40,12 @@ export const Contact=forwardRef((props,ref)=>{
               subject: "",
               message: ""}
             });
-            setTimeout(()=>{setFlash(false)}, "7000");
-          },
+           setTimeout(()=>{setFlash(false)}, "7000");
+         },
           (error) => {
             console.log('FAILED...', error.text);
           },
-        );
+       );
     };
 
     return<>

@@ -10,27 +10,27 @@ export const Skills=forwardRef((props,ref)=>{
          <h1>Frontend</h1>
              <div className="subsection">
              <div className="skill">
-             <i class="fa-brands fa-html5" style={{color: "#ff8800"}}></i>
+             <i className="fa-brands fa-html5" style={{color: "#ff8800"}}></i>
              <p>HTML5</p>
              </div>
 
             <div className="skill">
-            <i class="fa-brands fa-css3-alt" style={{color: "#0516ff"}}></i>
+            <i className="fa-brands fa-css3-alt" style={{color: "#0516ff"}}></i>
             <p>CSS</p>
             </div>
 
             <div className="skill">
-            <i class="fa-brands fa-js" style={{color: "#FFD43B"}}></i>
+            <i className="fa-brands fa-js" style={{color: "#FFD43B"}}></i>
             <p>JavaScript</p>
             </div>
 
             <div className="skill">
-            <i class="fa-brands fa-react" style={{color: "#2673ba"}}></i>
+            <i className="fa-brands fa-react" style={{color: "#2673ba"}}></i>
             <p>React</p>
             </div>
 
              <div className="skill">
-             <i class="fa-brands fa-bootstrap" style={{color: "#5900ff"}}></i>
+             <i className="fa-brands fa-bootstrap" style={{color: "#5900ff"}}></i>
              <p>Bootstrap</p>
              </div>
              </div>
@@ -47,7 +47,7 @@ export const Skills=forwardRef((props,ref)=>{
          </div>
 
          <div className="skill">
-         <i class="fa-brands fa-css3-alt" style={{color: "#0516ff"}}></i>
+         <i className="fa-brands fa-css3-alt" style={{color: "#0516ff"}}></i>
          <p>Express.js</p>
          </div>
 
@@ -77,7 +77,7 @@ export const Skills=forwardRef((props,ref)=>{
          </div>
 
          <div className="skill">
-            <i class="fa-brands fa-js" style={{color: "#FFD43B"}}></i>
+            <i className="fa-brands fa-js" style={{color: "#FFD43B"}}></i>
             <p>JavaScript</p>
             </div>
 
