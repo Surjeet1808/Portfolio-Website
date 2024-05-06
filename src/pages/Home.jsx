@@ -11,7 +11,7 @@ export const Home=forwardRef((props,ref)=>{
         <a href="https://drive.google.com/file/d/1FjQf1nD2Jtop_ORtl7Zhxu3LbSYpmRml/view?usp=sharing" target="_blank">Resume</a>
       </div>
       <div className="image">
-      <img src="https://res.cloudinary.com/dglsakcnx/image/upload/v1714822855/download_image_1714822021328_xgzwyz.png" alt="Image" />
+      <img src={import.meta.env.VITE_IMAGE_URL} alt="Image" />
       </div>
      </div>
      
