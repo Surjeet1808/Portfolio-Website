@@ -27,7 +27,7 @@ export const Experience=forwardRef((props,ref)=>{
             <div className="company">
              <img src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/05/10175228/images-11.png" alt="" />
              <div className="info">
-                <p className="experience">600+ Problems Solved | Rank Under Top 15%</p>
+                <p className="experience">700+ Problems Solved | Rank Under Top 10%</p>
                 <p className="company-name">LeetCode</p>
                 <p className="date">2022 - present</p>
              </div>
