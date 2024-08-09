@@ -17,6 +17,7 @@
     margin: 2rem auto 0 auto;
     color: rgba(242, 243, 244, 0.584);
     max-width: 40rem;
+    padding: 2rem;
 }
 .company img{
     height: 3rem;
@@ -48,9 +49,19 @@
     border: 2px solid #2eb2d3;
     border-radius: 2rem;
     padding: 1rem;
-    width: 40rem;
+    /* width: 40rem; */
     margin: 2rem auto;
     transition: 0.3s ease-in-out;
+}
+ @media screen and (min-width:768px) {
+    .ex-section{
+        width:40rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .ex-section{
+        margin: 2rem 2rem;
+    }
 }
 .ex-section:hover{
     border-color: white;
