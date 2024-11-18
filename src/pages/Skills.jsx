@@ -11,7 +11,7 @@ export const Skills=forwardRef((props,ref)=>{
              <div className="subsection">
              <div className="skill">
              <i className="fa-brands fa-html5" style={{color: "#ff8800"}}></i>
-             <p>HTML5</p>
+             <p>HTML</p>
              </div>
 
             <div className="skill">
@@ -30,8 +30,8 @@ export const Skills=forwardRef((props,ref)=>{
             </div>
 
              <div className="skill">
-             <i className="fa-brands fa-bootstrap" style={{color: "#5900ff"}}></i>
-             <p>Bootstrap</p>
+             <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-tailwind-3d-icon-download-in-png-blend-fbx-gltf-file-formats--html-logo-css-framework-customizable-coding-lang-pack-logos-icons-7577995.png"  className="logoimg"/>
+             <p>TailWind</p>
              </div>
              </div>
         </div>
@@ -72,7 +72,7 @@ export const Skills=forwardRef((props,ref)=>{
          </div>
 
          <div className="skill">
-         <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Java-logo.png" className="logoimg" alt="" />
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4olCZVgLFZVuUquhQRFsJPXeKzN0E18VKg&s" className="logoimg" alt="" />
          <p>JAVA</p>
          </div>
 
@@ -97,16 +97,6 @@ export const Skills=forwardRef((props,ref)=>{
         <div className="skill">
         <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="" className="logoimg" />
          <p>GitHub</p>
-         </div>
-
-         <div className="skill">
-         <img src="https://blog.postman.com/wp-content/uploads/2018/04/logo-mark-300x300.png" alt="" className="logoimg"/>
-         <p>PostMan</p>
-         </div>
-
-         <div className="skill">
-         <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-512.png" className="logoimg" alt="" />
-         <p>Figma</p>
          </div>
 
          <div className="skill">

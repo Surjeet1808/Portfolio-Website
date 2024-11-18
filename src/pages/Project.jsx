@@ -8,6 +8,28 @@ export const Project=forwardRef((props,ref)=>{
         <p>Completed multiple projects, enhancing my development skills significantly.</p>
         <div className="project-container">
 
+        <div className="project-card">
+                <img src="https://etutor.co/blog/wp-content/uploads/2023/03/online-exam-software.jpg" alt="" />
+
+                <div className="technologies">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Tailwind</p>
+                    <p>Java Script</p>
+                    <p>React.js</p>
+                    <p>Node.js</p>
+                    <p>Express.js</p>
+                    <p>Mongodb</p>
+                </div>
+                <p id="title">TestPro- Online Test Taking Platform</p>
+                <p id="date">Aug 2024 - Nov 2024</p>
+                <p id="description">Created a fully functional and responsive online test-taking platform using React.js, Tailwind CSS, and
+                a simple backend with Express.js.</p>
+                <div className="links">
+                    <a href="https://github.com/Surjeet1808/TestPro-Online-Test-Platform.git" target="_blank" id="code">View Code</a>
+                    <a href="https://test-pro-online.vercel.app/" target="_blank" id="live">View Live</a>
+                </div>
+            </div>
 
            <div className="project-card">
                 <img src="https://wedevs.com/_ipx/https://cdn.wedevs.com/uploads/2021/09/How-to-use-Dokan-Booking-Module.png?f=webp&q=90" alt="" />
@@ -53,7 +75,7 @@ export const Project=forwardRef((props,ref)=>{
 
 
             <div className="project-card">
-                <img src="https://res.cloudinary.com/dglsakcnx/image/upload/v1714823286/Screenshot_1569_tglwx7.png" alt="" />
+                <img src="https://pmstudycircle.com/wp-content/uploads/2024/01/portfolio.png.webp" alt="" />
 
                 <div className="technologies">
                     <p>HTML</p>

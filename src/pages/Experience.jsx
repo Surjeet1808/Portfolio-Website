@@ -27,13 +27,13 @@ export const Experience=forwardRef((props,ref)=>{
             <div className="company">
              <img src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/05/10175228/images-11.png" alt="" />
              <div className="info">
-                <p className="experience">700+ Problems Solved | Rank Under Top 10%</p>
+                <p className="experience">800+ Problems Solved | Rank Under Top 10%</p>
                 <p className="company-name">LeetCode</p>
                 <p className="date">2022 - present</p>
              </div>
             </div>
             <div className="description">
-               <p>By consistently engaging in coding challenges, I've mastered over 600 LeetCode problems, maintaining an impressive streak of daily practice for 8 months. Participating in over 45 contests, I've ranked among the top 15% of coders, refining my logic and problem-solving skills along the way. This consistent effort has significantly enhanced my ability to tackle complex problems and find efficient solutions.</p>
+               <p>By consistently engaging in coding challenges, I've mastered over 800 LeetCode problems, maintaining an impressive streak of daily practice for 8 months. Participating in over 70 contests, I've ranked among the top 10% of coders, refining my logic and problem-solving skills along the way. This consistent effort has significantly enhanced my ability to tackle complex problems and find efficient solutions.</p>
                <p>skills: JAVA</p>
             </div>
         </div>

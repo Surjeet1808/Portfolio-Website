@@ -15,7 +15,7 @@ export const Education=forwardRef((props,ref)=>{
              </div>
             </div>
             <div className="description">
-            <p> GPA: 8.23</p>
+            <p> GPA: 8.19</p>
                <p>I am currently pursuing Bachelor of Technology in Computer Science and Engineering from University Institute of Technology, RGPV, Bhopal.</p>
             </div>
         </div>
